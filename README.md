@@ -22,7 +22,7 @@ Location: **Bắc Đông Quan, Hưng Yên, Việt Nam**
 
 ---
 
-## Runtime Profile (JavaScript)
+## Profile
 
 ```js
 class QuangThangCoder {

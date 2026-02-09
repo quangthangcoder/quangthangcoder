@@ -5,22 +5,24 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=quangthangcoder&style=for-the-badge&color=brightgreen)
 
 ---
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=quangthangcoder&show_icons=true&theme=tokyonight&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=quangthangcoder&layout=compact&theme=tokyonight&hide_border=true)
+
+## System Status
+
+![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=quangthangcoder&show_icons=true&theme=tokyonight&hide_border=true)
+
+![Top Languages](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=quangthangcoder&layout=compact&theme=tokyonight&hide_border=true)
 
 ---
 
-![Wakatime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=quangthangcoder&theme=tokyonight&hide_border=true)
-
----
+## About
 
 Im **quangthangcoder**  
 Real Name: **Trương Quang Thắng**  
 Location: **Bắc Đông Quan, Hưng Yên, Việt Nam**
 
-Focus on writing code that is **hard to read, hard to trace, and hard to break**.
-
 ---
+
+## Runtime Profile (JavaScript)
 
 ```js
 class QuangThangCoder {

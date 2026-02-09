@@ -4,10 +4,21 @@
 ![Followers](https://img.shields.io/github/followers/quangthangcoder?style=for-the-badge&color=blue)
 ![Profile Views](https://komarev.com/ghpvc/?username=quangthangcoder&style=for-the-badge&color=brightgreen)
 
-## About Me
+---
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=quangthangcoder&show_icons=true&theme=tokyonight&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=quangthangcoder&layout=compact&theme=tokyonight&hide_border=true)
 
-Im **quangthangcoder**, Real Name Is **Trương Quang Thắng**, Living In **Bắc Đông Quan, Hưng Yên, Việt Nam**.  
-Passionate about **Software Protection, Obfuscation, Reverse Engineering, and Security Research**.
+---
+
+![Wakatime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=quangthangcoder&theme=tokyonight&hide_border=true)
+
+---
+
+Im **quangthangcoder**  
+Real Name: **Trương Quang Thắng**  
+Location: **Bắc Đông Quan, Hưng Yên, Việt Nam**
+
+Focus on writing code that is **hard to read, hard to trace, and hard to break**.
 
 ---
 
@@ -17,31 +28,31 @@ class QuangThangCoder {
         this.username = "quangthangcoder"
         this.realName = "Trương Quang Thắng"
         this.location = "Bắc Đông Quan, Hưng Yên, Việt Nam"
-        this.focus = [
-            "JavaScript Obfuscation",
-            "Python Obfuscation",
-            "Anti-Tamper",
-            "Anti-Debug",
-            "Reverse Engineering"
-        ]
-        this.tools = [
-            "CryptaJS",
-            "Tsunami",
-            "PyHigh",
-            "Custom Obfuscation Engine"
+
+        this.languages = {
+            Python: "Advanced",
+            JavaScript: "Advanced",
+            NextJS: "Intermediate",
+            HTML: "Advanced"
+        }
+
+        this.hobbies = [
+            "Play Games",
+            "Watch Movies",
+            "Coding"
         ]
     }
 
-    about() {
-        return `
-        Name: ${this.realName}
-        Username: ${this.username}
-        Location: ${this.location}
-        Focus: ${this.focus.join(", ")}
-        Tools: ${this.tools.join(", ")}
-        `
+    dump() {
+        return {
+            user: this.username,
+            name: this.realName,
+            location: this.location,
+            languages: this.languages,
+            hobbies: this.hobbies
+        }
     }
 }
 
-const me = new QuangThangCoder()
-console.log(me.about())
+const runtime = new QuangThangCoder()
+console.log(runtime.dump())
